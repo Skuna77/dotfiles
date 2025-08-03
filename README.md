@@ -1,8 +1,9 @@
 # 🖥️ Dotfiles - Arch Linux Configuration
+![Neovim](neovim.png)
+![One Dark Pro Theme](st.png)
+![Minimal Theme](dwm.png)
 
-![Dotfiles Banner](banner.png) *Replace with your screenshot*
-
-This repository contains my personal Linux configuration files for a streamlined Arch Linux setup featuring Neovim, suckless tools, and tiling window management.
+This repository contains my personal Linux configuration files for a streamlined Arch Linux setup featuring Neovim for embedded programming, suckless tools, Picom, and tiling window management.
 
 ## 📦 Repository Contents
 
@@ -67,18 +68,21 @@ sudo make clean install
   - LSP support
   - Telescope fuzzy finder
   - Treesitter syntax highlighting
-  - Debugger integration
-
+  - LaTeX integration 
+  - Platformio support
+  - ESP-idf support
+  - C++/C
+  - Python
 ### 🧩 Suckless Tools
 - Custom builds:
   - **dwm** (dynamic window manager)
   - **st** (simple terminal)
   - **dmenu** (application launcher)
+  - **slstatus** (status bar)
 - Applied patches:
   - Gaps
   - Status bar enhancements
-  - Xresources color support
-
+  - Fibbonacci 
 ## 🛠️ Dependencies
 
 | Component      | Required Packages                         |
@@ -86,7 +90,7 @@ sudo make clean install
 | Core           | `git base-devel`                          |
 | Window Manager | `xorg-server xorg-xinit feh picom`        |
 | Terminal       | `st (built from source)`                  |
-| Editor         | `neovim python-pynvim tree-sitter`        |
+| Editor         | `neovim python-pynvim tree-sitter `        |
 | Utilities      | `zathura zathura-pdf-mupdf sxhkd scrot`   |
 
 Full list in [install.sh](install.sh)
@@ -124,5 +128,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**💻 Happy Hacking!**  
 *Ayad Mohamed - [GitHub Profile](https://github.com/Skuna77)*
